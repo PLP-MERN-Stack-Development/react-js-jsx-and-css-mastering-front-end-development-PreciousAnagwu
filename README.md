@@ -42,7 +42,7 @@ src/
  │    ├── App.jsx
  │    ├── main.jsx
  │    └── index.css
- ├── Assignment screenshot.png
+ ├── Assignment_screenshot.png
  ├── components.json
  ├── index.html
  ├── jsconfig.json
