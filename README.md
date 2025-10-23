@@ -1,70 +1,160 @@
-# React.js and Tailwind CSS Assignment
+# 🧠 Week 3: React.js, JSX & Tailwind CSS Assignment – Task Manager App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+## 🚀 Project Overview
+This project is a responsive **Task Manager Application** built using **React.js**, **Tailwind CSS**, and **Vite**.  
+It demonstrates React component architecture, state management with hooks, local storage integration, API fetching, and dark/light mode theming.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🧰 Tech Stack
+- React 18
+- Tailwind CSS 3
+- Vite
+- Shadcn UI Components
+- Local Storage API
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
-
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
+## 🗂️ Folder Structure
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+ ├── components/
+ │   ├── Button.jx
+ │   ├── Card.jsx
+ │   ├── Footer.jsx
+ │   ├──  Layout.jsx
+ │   ├──  Navbar.jsx
+ │   ├──  TaskManager.jsx
+ │   └── ui/
+ │       ├── button.jsx
+ │       └── card.jsx
+ ├── context/
+ │   └── ThemeContext.jsx
+ ├── hooks/
+ │   └── useLocalStorage.jsx
+ ├── lib
+ │   └── utils.js
+ ├── pages/
+ │   ├── Home.jsx
+ │   ├── Tasks.jsx
+ │   └── APIData.jsx
+ ├── services/
+ │    ├── App.jsx
+ │    ├── main.jsx
+ │    └── index.css
+ ├── Assignment screenshot.png
+ ├── components.json
+ ├── index.html
+ ├── jsconfig.json
+ ├── package-lock.json
+ ├── package.json
+ ├── postcss.config.cjs
+ ├── README.md
+ ├── tailwind.config.cjs
+ ├── vite.config.mjs
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## ⚙️ Setup Instructions
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-PreciousAnagwu.git
+cd react-js-jsx-and-css-mastering-front-end-development-PreciousAnagwu
+```
 
-## Resources
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+### 3️⃣ Run the Development Server
+```bash
+npm run dev
+```
+
+### 4️⃣ Build for Production
+```bash
+npm run build
+```
+
+---
+
+## 🌈 Features
+✅ Add new tasks  
+✅ Mark tasks as completed  
+✅ Delete tasks  
+✅ Filter by All / Completed / Active  
+✅ Persistent data using Local Storage  
+✅ Fetch data from JSONPlaceholder API  
+✅ Dark / Light mode toggle  
+✅ Responsive layout with Tailwind CSS  # 🧠 Week 3: React.js, JSX & Tailwind CSS Assignment – Task Manager App
+
+---
+
+## 🖼️ Screenshots
+![App Screenshot]("/.Assignments screenshot.png")
+
+---
+
+## 🌐 Deployment
+
+This application is deployed using **github**.
+
+🔗 **Live Demo:** [https://your-deployed-url.vercel.app](https://your-deployed-url.vercel.app)
+
+---
+
+## 👩‍💻 Author
+**Anagwu Precious Chinemerem**  
+📍 Nigeria, Port Harcourt, Rivers State  
+📧 panagwu@gmail.com  
+
+---
+
+## 🧪 Submission Checklist
+- [x] All project files organized in folders  
+- [x] Functional Task Manager with CRUD + Filter + Local Storage  
+- [x] Responsive UI with Tailwind CSS  
+- [x] Dark/Light theme toggle  
+- [x] API Integration (JSONPlaceholder)  
+- [x] Comprehensive README with screenshots and deployment link  
+- [x] Deployed on Vercel or Netlify  
+
+---
+
+### 💡 Notes
+This project fulfills the **PLP Academy Week 3 React.js Assignment** — demonstrating mastery of JSX, component design, state management, hooks, and UI styling with Tailwind CSS.
+
+---
+
+
+## 🌐 Deployment
+
+This application is deployed using **Vercel**.
+
+🔗 **Live Demo:** [https://your-deployed-url.vercel.app](https://your-deployed-url.vercel.app)
+
+---
+
+## 👩‍💻 Author
+**Anagwu Precious Chinemerem**  
+📍 Port Harcourt, Rivers State  
+📧 panagwu@gmail.com  
+
+---
+
+## 🧪 Submission Checklist
+- [x] All project files organized in folders  
+- [x] Functional Task Manager with CRUD + Filter + Local Storage  
+- [x] Responsive UI with Tailwind CSS  
+- [x] Dark/Light theme toggle  
+- [x] API Integration (JSONPlaceholder)  
+- [x] Comprehensive README with screenshots and deployment link  
+- [x] Deployed on Vercel or Netlify  
+
+---
+
+### 💡 Notes
+This project fulfills the **PLP Academy Week 3 React.js Assignment** — demonstrating mastery of JSX, component design, state management, hooks, and UI styling with Tailwind CSS.
