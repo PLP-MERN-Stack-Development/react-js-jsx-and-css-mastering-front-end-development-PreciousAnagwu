@@ -94,7 +94,7 @@ npm run build
 ---
 
 ## 🖼️ Screenshots
-![App Screenshot](/.Assignment_screenshot.png)
+![](/.Assignment_screenshot.png)
 
 ---
 
