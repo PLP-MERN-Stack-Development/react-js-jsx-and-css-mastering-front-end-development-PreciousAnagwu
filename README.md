@@ -100,7 +100,7 @@ npm run build
 
 ## 🌐 Deployment
 
-This application is deployed using **github**.
+This application is deployed using  [**Netlify**](https://www.netlify.com).
 
 🔗 **Live Demo:** [https://mern-week-3-assignment.netlify.app](https://mern-week-3-assignment.netlify.app/)
 
