@@ -102,7 +102,7 @@ npm run build
 
 This application is deployed using **github**.
 
-🔗 **Live Demo:** [https://your-deployed-url.vercel.app](https://mern-week-3-assignment.netlify.app/)
+🔗 **Live Demo:** [https://mern-week-3-assignment.netlify.app](https://mern-week-3-assignment.netlify.app/)
 
 ---
 
